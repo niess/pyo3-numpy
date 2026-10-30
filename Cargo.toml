@@ -1,0 +1,14 @@
+[package]
+name = "pyo3-numpy"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+paste = "*"
+
+[dependencies.pyo3]
+version = "0.29"
+features = [
+    "abi3",
+    "extension-module",
+]
